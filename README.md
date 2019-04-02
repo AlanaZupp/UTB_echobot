@@ -1,2 +1,2 @@
-# aut-android-app
+# AUT Android App
 AUT SDP Project
