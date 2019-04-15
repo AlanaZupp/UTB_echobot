@@ -11,7 +11,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name="com.example.autandroidapp.services_button"
+
+        <activity
+            android:name="com.example.autandroidapp.services_button"
             android:label="@string/AUTSERVICES"
             android:parentActivityName="com.example.autandroidapp.MainActivity"
             tools:ignore="DuplicateActivity">
@@ -20,7 +22,8 @@
                 android:value="com.example.autandroidapp.MainActivity" />
         </activity>
 
-        <activity android:name="com.example.autandroidapp.help_button"
+        <activity
+            android:name="com.example.autandroidapp.help_button"
             android:label="@string/HELPTITLE"
             android:parentActivityName="com.example.autandroidapp.MainActivity"
             tools:ignore="DuplicateActivity">
