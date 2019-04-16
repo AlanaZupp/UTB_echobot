@@ -1,9 +1,26 @@
 <resources>
-    <string name="app_name">AutAndroidApp</string>
+    <string name="app_name">AUT App</string>
+    <string name="CHATBOT">CHATBOT</string>
+    <string name="SERVICES">SERVICES</string>
+    <string name="MAP">MAP</string>
+    <string name="COURSES">COURSES</string>
+    <string name="CALENDER">CALENDAR</string>
+    <string name="HELP">HELP</string>
+    <string name="AUTSERVICES">AUT SERVICES</string>
+    <string name="CHATBOTTITLE">CHATBOT</string>
+    <string name="MAPTITLE">AUT CAMPUS MAPS</string>
+    <string name="COURSESTITLE">AUT COURSES</string>
+    <string name="CALENDERTITLE">CALENDAR</string>
+    <string name="HELPTITLE">HELP</string>
+    <string name="UNIVERSITY">UNIVERSITY</string>
+    <string name="AUT">AUT</string>
+    <string name="title_activity_calendar_button">calendar_button</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Android Studio</string>
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
-    <string name="action_settings">Settings</string>
+
 </resources>
