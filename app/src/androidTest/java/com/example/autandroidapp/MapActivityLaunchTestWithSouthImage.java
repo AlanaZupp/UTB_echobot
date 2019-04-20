@@ -8,13 +8,13 @@ import org.junit.Rule;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
-import androidx.fragment.app.Fragment;
 import androidx.test.rule.ActivityTestRule;
 import androidx.test.runner.AndroidJUnit4;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertNotNull;
+
 @RunWith(AndroidJUnit4.class)
-public class MapActivityLaunchTest {
+public class MapActivityLaunchTestWithSouthImage {
 
     @Rule
     public ActivityTestRule<MapActivity> mapActivityTestRule = new ActivityTestRule<MapActivity>(MapActivity.class);
@@ -29,10 +29,7 @@ public class MapActivityLaunchTest {
     @Test
     // Launching a mapActivity, with map images of city, north, and south campuses
     public void mapLaunch(){
-        View view = mapActivity.findViewById(R.id.imageViewCityCampus);
-        view.findViewById(R.id.imageViewNorthCampus);
-        view.findViewById(R.id.imageViewSouthCampus);
-
+        View view = mapActivity.findViewById(R.id.imageViewSouthCampus);
         assertNotNull(view);
     }
 
