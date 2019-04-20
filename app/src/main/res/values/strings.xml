@@ -26,6 +26,10 @@
     <string name="tab_north">NORTH</string>
     <string name="tab_city">CITY</string>
     <string name="tab_south">SOUTH</string>
+    <string name="title_activity_calendar">CalendarActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
 
 
 </resources>
