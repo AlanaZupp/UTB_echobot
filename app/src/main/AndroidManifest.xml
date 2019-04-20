@@ -11,44 +11,47 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-
         <activity
-            android:name="com.example.autandroidapp.services_button"
+            android:name=".MapActivity"
+            android:label="@string/title_activity_map"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".services_button"
             android:label="@string/AUTSERVICES"
-            android:parentActivityName="com.example.autandroidapp.MainActivity"
+            android:parentActivityName=".MainActivity"
             tools:ignore="DuplicateActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.autandroidapp.MainActivity" />
         </activity>
-
         <activity
-            android:name="com.example.autandroidapp.help_button"
+            android:name=".help_button"
             android:label="@string/HELPTITLE"
-            android:parentActivityName="com.example.autandroidapp.MainActivity"
+            android:parentActivityName=".MainActivity"
             tools:ignore="DuplicateActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.autandroidapp.MainActivity" />
         </activity>
-        <activity android:name="com.example.autandroidapp.courses_button"
+        <activity
+            android:name=".courses_button"
             android:label="@string/COURSESTITLE"
-            android:parentActivityName="com.example.autandroidapp.MainActivity"
+            android:parentActivityName=".MainActivity"
             tools:ignore="DuplicateActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.autandroidapp.MainActivity" />
         </activity>
-
-        <activity android:name="com.example.autandroidapp.chatbot_button"
+        <activity
+            android:name=".chatbot_button"
             android:label="@string/CHATBOTTITLE"
-            android:parentActivityName="com.example.autandroidapp.MainActivity"
+            android:parentActivityName=".MainActivity"
             tools:ignore="DuplicateActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.autandroidapp.MainActivity" />
         </activity>
-        <activity android:name="com.example.autandroidapp.MainActivity">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

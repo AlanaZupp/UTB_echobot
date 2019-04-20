@@ -3,7 +3,9 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
-    <color name = "appTheme">#446a88</color>
+    <color name = "appTheme">#446A88</color>
     <color name = "titleBar">#557792</color>
     <color name = "statusBar">#7792a8</color>
+    <color name = "black">#000000</color>
+    <color name="appAccent">#1F415D</color>
 </resources>

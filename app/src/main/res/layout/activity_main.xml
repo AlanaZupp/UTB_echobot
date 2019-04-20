@@ -68,7 +68,7 @@
         android:text="@string/SERVICES"
         android:textSize="18sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/calender"
+        app:layout_constraintBottom_toTopOf="@+id/calendar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/chatbot"
@@ -78,20 +78,21 @@
         android:id="@+id/map"
         android:layout_width="133dp"
         android:layout_height="70dp"
+        android:onClick="MapActivity"
         android:text="@string/MAP"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/courses"
-        app:layout_constraintEnd_toStartOf="@+id/calender"
+        app:layout_constraintEnd_toStartOf="@+id/calendar"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/chatbot" />
 
     <Button
-        android:id="@+id/calender"
+        android:id="@+id/calendar"
         android:layout_width="133dp"
         android:layout_height="70dp"
-        android:text="@string/CALENDER"
+        android:text="@string/CALENDAR"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/help"
@@ -126,5 +127,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/courses"
-        app:layout_constraintTop_toBottomOf="@+id/calender" />
+        app:layout_constraintTop_toBottomOf="@+id/calendar" />
 </androidx.constraintlayout.widget.ConstraintLayout>

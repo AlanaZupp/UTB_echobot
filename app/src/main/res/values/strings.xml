@@ -4,7 +4,7 @@
     <string name="SERVICES">SERVICES</string>
     <string name="MAP">MAP</string>
     <string name="COURSES">COURSES</string>
-    <string name="CALENDER">CALENDAR</string>
+    <string name="CALENDAR">CALENDAR</string>
     <string name="HELP">HELP</string>
     <string name="AUTSERVICES">AUT SERVICES</string>
     <string name="CHATBOTTITLE">CHATBOT</string>
@@ -22,5 +22,10 @@
     <string name="nav_header_title">Android Studio</string>
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
+    <string name="title_activity_map">MapActivity</string>
+    <string name="tab_north">NORTH</string>
+    <string name="tab_city">CITY</string>
+    <string name="tab_south">SOUTH</string>
+
 
 </resources>
