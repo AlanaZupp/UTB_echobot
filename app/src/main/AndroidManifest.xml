@@ -13,10 +13,12 @@
         tools:ignore="GoogleAppIndexingWarning">
         <activity
             android:name=".CalendarActivity"
+            android:parentActivityName=".MainActivity"
             android:label="@string/title_activity_calendar"
             android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
             android:name=".MapActivity"
+            android:parentActivityName=".MainActivity"
             android:label="@string/title_activity_map"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity

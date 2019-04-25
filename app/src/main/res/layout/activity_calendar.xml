@@ -22,9 +22,11 @@
             android:layout_height="41dp"
             android:layout_weight="1"
             android:background="?attr/colorPrimary"
+            android:paddingTop="0dp"
+            android:scrollbarStyle="insideInset"
             app:layout_scrollFlags="scroll|enterAlways"
             app:popupTheme="@style/AppTheme.PopupOverlay"
-            app:title="@string/app_name">
+            app:title="@string/CALENDERTITLE">
 
         </androidx.appcompat.widget.Toolbar>
 
