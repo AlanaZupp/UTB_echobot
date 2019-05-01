@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void chatbotActivity(View view)
     {
-        Intent intent = new Intent(this, chatbot_button.class);
+        Intent intent = new Intent(this, ChatbotActivity.class);
         startActivity(intent);
     }
 

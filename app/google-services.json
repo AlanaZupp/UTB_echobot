@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "788335753394",
+    "firebase_url": "https://utbchatbot.firebaseio.com",
+    "project_id": "utbchatbot",
+    "storage_bucket": "utbchatbot.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:788335753394:android:18150bd0cd0704ca",
+        "android_client_info": {
+          "package_name": "com.example.autandroidapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "788335753394-c6a5m80751ce53auvk8il7upbot3o07b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.autandroidapp",
+            "certificate_hash": "6af8396a2951923482de2c1ef538b4617d56fcbf"
+          }
+        },
+        {
+          "client_id": "788335753394-qensprgh966iltk14fhuhtqm6pr7kt1n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDn1jQzr-M9qguJ74dNL3S_SIuRu6GOlg8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "788335753394-qensprgh966iltk14fhuhtqm6pr7kt1n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
